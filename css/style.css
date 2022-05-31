@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-css-edit{
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: brown;
+}
+.nav-css-edit a:hover{
+
+    background-color: rgb(168, 2, 2);
+}
+.list-bullet-edit{
+    list-style-type: none;
+}
+.nav-css-edit a{
+    font-family: Calibri;
+    display: block;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size:20px;
+    color: white;
+}
