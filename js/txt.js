@@ -39,3 +39,13 @@
 //     console.log(a);
 // }
 // console.log(a);
+var a = 40;
+{
+    let a = 50
+    {
+        const a = 60;
+        console.log(a); 
+    }
+    console.log(a); 
+}
+console.log(a); 
