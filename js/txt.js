@@ -39,13 +39,58 @@
 //     console.log(a);
 // }
 // console.log(a);
-var a = 40;
-{
-    let a = 50
-    {
-        const a = 60;
-        console.log(a); 
-    }
-    console.log(a); 
-}
-console.log(a); 
+// var a = 40;
+// {
+//     let a = 50
+//     {
+//         const a = 60;
+//         console.log(a); 
+//     }
+//     console.log(a); 
+// }
+// console.log(a); 
+
+// 1-6-22
+// String
+
+//normal string
+// let string = 'Hi this is nishchay gajera';
+// console.log(string)
+
+// let string1 = "Node"
+// let string2 = "JS"
+// let string = string1 + string2 + "Is the Best Language"; Complicated
+// console.log(string);
+
+//will cause error in multiple line of string
+// let string = "Lorem ipsum dolor sit amet 
+// consectetur adipisicing elit. Aperiam facere, laborum obcaecati velit fugit recusandae 
+// asperiores veniam autem ipsum dolor voluptas. Vitae dolor fugiat dolorem at, excepturi est. Repudiandae, earum?"
+// console.log(string)
+
+
+//backtick
+// let string = `Hi this is nishchay gajera And this text is printed using backtick`
+// console.log(string)
+
+// let string1 = "Node"
+// let string2 = "JS"
+// let string = `${string1} ${string2}`; Not So Complicated
+// console.log(string);
+
+//will run perfectly in multi line of string
+// let string = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facere, laborum obcaecati velit fugit recusandae 
+// asperiores veniam autem ipsum dolor voluptas. Vitae dolor fugiat dolorem at, excepturi est. Repudiandae, earum?`
+// console.log(string)
+
+//Type of Function
+// console.log(typeof function () { });          //function
+// console.log(typeof true);                     //boolean
+// console.log(typeof {});                       //object
+// console.log(typeof []);                       //object
+// console.log(typeof 100);                      //number
+// console.log(typeof undefined);                //undefined
+// console.log(typeof null);                     //object
+// console.log(typeof Symbol("Hello"));          //symbol
+// console.log(typeof 100n);                     //bigint
+// console.log(typeof "Hello");                  //string
