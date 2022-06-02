@@ -97,6 +97,9 @@
 
 // 2-6-22
 
+// 0 = false
+// 1 = true
+
 // console.log(1 ^ 1); //0
 // console.log(0 ^ 0); //0
 // console.log(1 ^ 0); //1
