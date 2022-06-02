@@ -94,3 +94,35 @@
 // console.log(typeof Symbol("Hello"));          //symbol
 // console.log(typeof 100n);                     //bigint
 // console.log(typeof "Hello");                  //string
+
+// 2-6-22
+
+// console.log(1 ^ 1); //0
+// console.log(0 ^ 0); //0
+// console.log(1 ^ 0); //1
+// console.log(0 ^ 1); //1
+
+//Double Equal sign checks value
+//Triple Equal sign checks value and datatype
+
+// null = Completely empty TYPE= object
+// undefined = Have something but don't know what TYPE = undefined
+// NaN= It comes when there is no legal number TYPE= number
+
+// console.log(null == null); //true
+// console.log(null === null); //true
+
+// console.log(null == undefined); //true
+// console.log(null === undefined); //false
+
+// console.log(null == NaN); //false
+// console.log(null === NaN); //false
+
+// console.log(undefined == undefined); //true
+// console.log(undefined === undefined); //true
+
+// console.log(undefined == NaN); //false
+// console.log(undefined === NaN);//false
+
+// console.log(NaN == NaN); //False
+// console.log(NaN === NaN); //False
