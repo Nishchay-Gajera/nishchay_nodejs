@@ -129,3 +129,32 @@
 
 // console.log(NaN == NaN); //False
 // console.log(NaN === NaN); //False
+
+// 3-6-22
+
+// Array is a collection of Homogenus data
+
+//declareration of array
+// let arr = [5,8,9,4];
+//console.log(arr)
+
+// let arr = [5,6,8,9]
+// arr[4] = 88;
+// console.log(arr)
+
+// Length = in js length is a property not a function
+
+// let arr = [5,6,8,9,7]
+// console.log(arr.length); = legth is 5
+
+// let arr = [10,20,30,40,50]
+//arr.length = 100;
+//console.log(arr.length)
+
+// let i;
+// let arr = [10,20,30,40,50,null]
+// arr.length =100;
+// delete arr[1];
+// delete arr[3];
+// delete arr[4];
+// console.log(arr[1]===undefined)
