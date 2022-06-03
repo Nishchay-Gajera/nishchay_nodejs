@@ -148,8 +148,30 @@
 // console.log(arr.length); = legth is 5
 
 // let arr = [10,20,30,40,50]
-//arr.length = 100;
-//console.log(arr.length)
+// arr.length = 100;
+// console.log(arr.length)
+
+// let arr = [10,20,30,40,50]
+// arr.length = 100;
+// arr[100] = 15;
+// console.log(arr)
+
+// delete it helps us to delete an element data it doesn't delete element
+
+// let arr = [9,5,6,4,9]
+// delete arr[4];
+// console.log(arr)
+// console.log(arr.length) = 5
+
+// let arr = [9,5,6,4,9]
+// delete arr[4];
+// console.log(arr[4])
+
+// empty item and undefined difference
+
+// when we print a whole array then it shows empty item 
+// but when we print a single element then it shows undefined
+// you can use undefined in replacement of delete
 
 // let i;
 // let arr = [10,20,30,40,50,null]
