@@ -180,3 +180,45 @@
 // delete arr[3];
 // delete arr[4];
 // console.log(arr[1]===undefined)
+
+//6-6-22
+
+//push()
+// let arr=[10,20,33,40,50,60,70,80,90]
+// arr.push(20)
+// console.log(arr)
+
+// pop()
+// let arr = [10,20,30,40,50,60,70,80,90,100]
+// arr.pop();
+// console.log(arr)
+
+//unshift()
+// let arr = [10,20,30,40,50,60,70,80,90,100]
+// arr.unshift(50);
+// console.log(arr)
+
+//Shift()
+// let arr = [10,20,30,40,50,60,70,80,90,100]
+// arr.shift();
+// console.log(arr)
+
+//splice()
+// it is used to add/remove the element at any index
+let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+// arr1.splice(4, 3);
+// console.log(arr1);
+// arr1.splice(6, 1);s
+// console.log(arr1);
+// arr1.splice(0, 1);
+console.log(arr1);
+// arr1.splice(1, 1);
+// console.log(arr1);
+// arr1.splice(2, 0, 11, 12, 13);
+// console.log(arr1);
+// arr1.splice(1, 1, 11, 12);
+// console.log(arr1);
+// arr1.splice(0, 0, 11);
+// console.log(arr1);
+// arr1.splice(9, 0, 110);
+// console.log(arr1);
