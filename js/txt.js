@@ -132,7 +132,17 @@
 
 // 3-6-22
 
-// Array is a collection of Homogenus data
+// The Array object, as with arrays in other programming languages, enables storing 
+// a collection of multiple items under a single variable name, and has members 
+// for performing common array operations.
+
+// Array is a object it is not a real array
+
+// console.log(arr["0"]);
+// console.log(arr[3.0]);
+// console.log(arr[3.1]);
+// arr[3.5] = 45;
+// arr["A"] = 110;
 
 //declareration of array
 // let arr = [5,8,9,4];
@@ -205,13 +215,13 @@
 
 //splice()
 // it is used to add/remove the element at any index
-let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+// let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 // arr1.splice(4, 3);
 // console.log(arr1);
 // arr1.splice(6, 1);s
 // console.log(arr1);
 // arr1.splice(0, 1);
-console.log(arr1);
+// console.log(arr1);
 // arr1.splice(1, 1);
 // console.log(arr1);
 // arr1.splice(2, 0, 11, 12, 13);
@@ -222,3 +232,21 @@ console.log(arr1);
 // console.log(arr1);
 // arr1.splice(9, 0, 110);
 // console.log(arr1);
+
+// 7-6-22
+
+//Slice();
+// The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array.
+// The original array will not be modified.
+
+// let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+// console.log(arr.slice(3));
+// console.log(arr.slice(-2));
+// console.log(arr.slice(3, -2));
+// console.log(arr.slice(3, -9));
+// console.log(arr.slice(2, -4));
+// console.log(arr.slice(1, 5));
+// console.log(arr.slice(-10, 8));
+// console.log( arr.slice(-2) );
+// console.log(arr);
