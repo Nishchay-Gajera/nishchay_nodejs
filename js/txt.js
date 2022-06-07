@@ -236,7 +236,9 @@
 // 7-6-22
 
 //Slice();
-// The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array.
+// The slice() method returns a shallow copy of a portion of an array into 
+// a new array object selected from start to end (end not included) 
+// where start and end represent the index of items in that array.
 // The original array will not be modified.
 
 // let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
