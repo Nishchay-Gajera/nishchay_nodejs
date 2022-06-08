@@ -1,3 +1,12 @@
-let arr = [10,20,30,40,50]
-arr.length = 100;
-console.log(arr.length)
+
+//     return 'hello'
+// }
+
+// console.log(fun_one())
+
+
+function fun_one(argr,argw,argt){
+    return `hello ${argr}, ${argw} and ${argt}`;
+}
+
+console.log(fun_one(10,20,30));

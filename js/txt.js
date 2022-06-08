@@ -252,3 +252,58 @@
 // console.log(arr.slice(-10, 8));
 // console.log( arr.slice(-2) );
 // console.log(arr);
+
+// 8-6-22
+
+// shallow copy 
+
+// It happens only in object
+
+// const a = {
+//      em : 44 ,
+//      airt : 446 ,
+//      yub : 446
+// }
+
+// const b=a;
+// b.yub = 8981;
+// console.log(a)
+// console.log(b)
+
+// deep copy 
+
+// let a=446;
+// let b = a;
+// b=4468;
+// console.log(a)
+// console.log(b)
+
+// concate
+
+// let arr=[5,45,46,4,6,4,6] , arr2 = [4,8,6,49];
+// console.log([...arr,...arr2])
+
+// let arr=[5,45,46,4,6,4,6] , arr2 = [4,8,6,49];
+// let b = [...arr,...arr2]
+
+// console.log(b)
+
+// let arr=[5,45,46,4,6,4,6] , arr2 = [4,8,6,49];
+// let b = [...arr,arr2]
+
+// console.log(b)
+ 
+// function 
+
+// function fun_one(){
+//     return 'hello'
+// }
+
+// console.log(fun_one())
+
+
+function fun_one(argr,argw,argt){
+    return `hello ${argr}, ${argw} and ${argt}`;
+}
+
+console.log(fun_one(10,20,30));
