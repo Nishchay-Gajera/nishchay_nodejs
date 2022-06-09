@@ -302,8 +302,87 @@
 // console.log(fun_one())
 
 
-function fun_one(argr,argw,argt){
-    return `hello ${argr}, ${argw} and ${argt}`;
-}
+// function fun_one(argr,argw,argt){
+//     return `hello ${argr}, ${argw} and ${argt}`;
+// }
 
-console.log(fun_one(10,20,30));
+// console.log(fun_one(10,20,30));
+
+// 9-6-22
+
+// function fun_one(ar1,arg2,arg3){
+//     console.log(ar1,arg2,arg3); //UNDEFINED
+// }
+// fun_one();
+
+// function fun_one(){
+//     return 'hello'
+// }
+// function fun_two(){
+//     return fun_one;
+// }
+// console.log(fun_two())// [Function: fun_one]
+// console.log(fun_two); //[Function: fun_two]
+// console.log(fun_two()()); //hello
+
+// Function as a argument
+
+// function one(arg,arg1,arg2){
+//     console.log(arg(),arg1(),arg2()) // hello hello2 hello3
+//     console.log(arg,arg1,arg2) // [Function: two] [Function: three] [Function: four]
+// }
+// function two(){
+//     return 'hello'
+// }
+// function three(){
+//     return 'hello2'
+// }
+// function four(){
+//     return 'hello3'
+// }
+// one(two,three,four)
+
+// let arr=[]
+// function one(){
+//     return 'hello'
+// }
+// for(let i=0;i<5;i++){
+//     arr.push(one)
+//     console.log(arr[i]()) //hello
+// }
+// console.log(arr) //  [Function: one],  [Function: two],  [Function: three],  [Function: four],  [Function: five]
+
+// Arrow Function
+
+// let fun_one = () =>{
+//     return 'hello';
+// }
+// console.log(fun_one) //[Function: arr]
+// console.log(fun_one()) //hello
+
+// let fun_one=()=> 'hello';
+// console.log(fun_one) //[Function: fun_one]
+// console.log(fun_one())
+
+// let fun_one = (arg1,arg2,arg3) => {
+//     console.log(arg1(),arg2(),arg3()); //hello1 hello2 hello3
+//     console.log(arg1,arg2,arg3); //[Function (anonymous)] [Function (anonymous)] [Function (anonymous)]
+// }
+// fun_one(
+//     ()=>{
+//         return 'hello1'
+//     },
+//     ()=>{
+//         return 'hello2'
+//     },
+//     ()=>{
+//         return 'hello3'
+//     }
+// )
+
+// function fun_one(arg='nishchay'){
+//     console.log(arg);
+// }
+// fun_one();//nishchay
+// fun_one(undefined); //nishchay
+// fun_one(null) //null
