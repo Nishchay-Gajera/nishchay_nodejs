@@ -202,6 +202,7 @@
 // let arr = [10,20,30,40,50,60,70,80,90,100]
 // arr.pop();
 // console.log(arr)
+// console.log(arr.length)
 
 //unshift()
 // let arr = [10,20,30,40,50,60,70,80,90,100]
@@ -386,3 +387,33 @@
 // fun_one();//nishchay
 // fun_one(undefined); //nishchay
 // fun_one(null) //null
+
+// 10-6-22
+
+// Rest parameter
+
+// It works in parameter at one time only
+// It can take multiple paramater data
+
+// function fun_one(...arg1){
+//     console.log(arg1)
+// }
+// fun_one('hello ','My friend')
+
+// IIFE Immediate Invokable Function Expression
+
+// (()=>{7-
+//     console.log('Hello world')
+// })();
+
+// let x = ((arg1)=>{
+//     console.log(arg1)
+// })('Hello');
+
+// ((arg1)=>{
+//     console.log(arg1)
+// })(
+//     (()=>{
+//         return 'hello world'
+//     })()
+// )
