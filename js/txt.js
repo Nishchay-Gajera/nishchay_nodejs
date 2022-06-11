@@ -417,3 +417,60 @@
 //         return 'hello world'
 //     })()
 // )
+
+// 11-6-22
+
+// Call back Function:
+// A callback function is a function passed into another function as an argument, 
+// which is then invoked inside the outer function to complete some kind of routine or action.
+
+
+// function one(param1){
+//     console.log(param1())
+// }
+// function two(){ 
+//     return "Hello world"
+// }
+// one(two)
+
+// function one(param1){
+//     console.log(param1())
+// }
+// one(function new_fun(){
+//     return "This is callback Function"
+// })
+
+// function one(param1){
+//     // console.log(param1) [Function (anonymous)]
+//     console.log(param1())
+// }
+// let three = () => {
+//     return "Hello world"
+// }
+
+// one(three)
+
+// one(()=>{
+//     return "Hello World 2"
+// })
+
+// one(()=>'Hi')
+
+// one(function (){
+//     return "This is function"
+// })
+
+// function one(param1 , param2 , param3){
+//     return (param1("Hello 1 ") + param2("Hello 2") + param3("Hello 3"))
+// }
+// one(
+//     (param1)=>{
+//         console.log(param1)
+//     },
+//     (param2)=>{
+//         console.log(param2)
+//     },
+//     (param3)=>{
+//         console.log(param3)
+//     }
+// )

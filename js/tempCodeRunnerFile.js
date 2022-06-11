@@ -1,6 +1,3 @@
-
-//     return 'hello'
-// }
-// function three(){
-//     return 'hello2'
+let three = () => {
+//     return "Hello world"
 // }
