@@ -402,7 +402,7 @@
 
 // IIFE Immediate Invokable Function Expression
 
-// (()=>{7-
+// (()=>{
 //     console.log('Hello world')
 // })();
 
@@ -474,3 +474,15 @@
 //         console.log(param3)
 //     }
 // )
+// {
+// let x = function one(param1){
+//     console.log(param1)
+// }
+// one(90)
+
+// }
+// function one(param2){
+//     console.log(param2)
+// }
+//  one(40)
+//  one(20)
