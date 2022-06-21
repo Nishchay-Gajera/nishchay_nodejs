@@ -486,3 +486,36 @@
 // }
 //  one(40)
 //  one(20)
+
+// 20-6-22
+
+// Sync System
+//In a synchronous system task are complete one after another
+
+// console.log("HI")
+// console.log("HI1")
+// console.log("HI2")
+
+//Async System
+
+// setTimeout(()=>{
+//     console.log("HI")
+// },5000)
+
+// console.log("Hello")
+
+// HELL
+
+let flavour = {
+    fruits: ["strawberry","apple","banana","guvava"],
+    liquid: ["water","Ice"],
+    holder: ["cone","cup","Stick"],
+    toppings:["chocolate","vanela"]
+}
+let order = (fruits,production) =>{
+    production();
+}
+
+let production = () =>{
+}
+order(0,production)
