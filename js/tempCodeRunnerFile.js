@@ -1,3 +1,5 @@
-console.log("HI")
-// console.log("HI1")
-// console.log("HI2")
+setTimeout(()=>{
+    console.log("HI")
+},5000)
+
+console.log("Hello")

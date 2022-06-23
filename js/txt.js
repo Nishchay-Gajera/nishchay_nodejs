@@ -426,12 +426,12 @@
 
 
 // function one(param1){
-//     console.log(param1())
+//     console.log(param1)
 // }
 // function two(){ 
 //     return "Hello world"
 // }
-// one(two)
+// one(two())
 
 // function one(param1){
 //     console.log(param1())
@@ -441,8 +441,8 @@
 // })
 
 // function one(param1){
-//     // console.log(param1) [Function (anonymous)]
-//     console.log(param1())
+//     // console.log(param1)
+//     // console.log(param1())
 // }
 // let three = () => {
 //     return "Hello world"
@@ -506,16 +506,36 @@
 
 // HELL
 
-let flavour = {
-    fruits: ["strawberry","apple","banana","guvava"],
-    liquid: ["water","Ice"],
-    holder: ["cone","cup","Stick"],
-    toppings:["chocolate","vanela"]
-}
-let order = (fruits,production) =>{
-    production();
-}
-
-let production = () =>{
-}
-order(0,production)
+// let flavour = {
+//     fruits: ["strawberry","apple","banana","guvava"],
+//     liquid: ["water","Ice"],
+//     holder: ["cone","cup","Stick"],
+//     toppings:["chocolate","vanela"]
+// }
+// let order = (fruit,productions) =>{
+//     setTimeout(()=>{
+//         console.log(`${flavour.fruits[fruit]} Was selected`);
+//         productions();
+//     },1000)
+// }
+// let production = () =>{
+//     setTimeout(()=>{
+//         console.log("Production is started")
+//         setTimeout(()=>{
+//             console.log("Fruits has been chopped")
+//             setTimeout(()=>{
+//                 console.log(`${flavour.liquid[0]} and ${flavour.liquid[1]} Has added`)
+//                 setTimeout(()=>{
+//                     console.log(`${flavour.holder[0]} has selected`)
+//                     setTimeout(()=>{
+//                         console.log(`${flavour.toppings[1]} toppings has selected`)
+//                         setTimeout(()=>{
+//                             console.log("Serve the icecream")
+//                         },7000)
+//                     },6000)
+//                 },5000)
+//             },4000)
+//         },3000)
+//     },2000)
+// }
+// order(0,production)
