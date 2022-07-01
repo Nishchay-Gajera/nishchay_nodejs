@@ -790,11 +790,13 @@
 
 // //     - "express" framework downloads to "node_modules" folder in current path.
 
+// HTTP Module  
+
 // var http = require("http");
 // console.log(typeof (http));
 // var server = http.createServer((request, response) => {
 //   response.setHeader("Content-type", "text/html");
-// //   res.writeHead(200, { "Content-Type": "text/html" });
+//   res.writeHead(200, { "Content-Type": "text/html" });
 //   response.write("<h1> Hello </h1>");
 //   console.log(" request rec.. ");
 //   response.end();
@@ -803,13 +805,69 @@
 //   console.log("Listning 7878");
 // });
 
-let http = require("http")
- http.createServer((request,response)=>{
-    response.setHeader("content-type","text\html")
-    response.write("<h1>Nice to meet you</h1>")
-    console.log("request...")
-    response.end()
-})
-.listen(8080,()=>{
-    console.log("server started")
-})
+//File System
+
+// const fs = require("fs");
+// fs.writeFile("demo.txt", "writing the data asynchronously", (err) => {
+
+// });
+// fs.writeFileSync("demo.txt", "writing the data synchrnously");
+
+
+// fs.appendFile("demo.txt", "\n this is new line", (err) => {
+//   if (err) throw err;
+//   else console.log("data appended asynchronously");
+// });
+// fs.appendFileSync("demo.txt", "\ndata appended synchronously");
+
+// fs.readFile("demo.txt", (err, data) => {
+//         if (err) throw err;
+//         else console.log(data.toString());
+//     });
+    
+    // const result = fs.readFileSync("demo.txt");
+    // console.log(result.toString());
+
+// fs.openSync("demo.txt", "r+");
+// console.log("file opened synchronously");
+
+
+// fs.open("demo.txt", "r+", (err, fd) => {
+//   if (err) console.log(err);
+//   else {
+//     fs.close(fd, (err) => {
+//       if (err) throw err;
+//       else {
+//         console.log("file closed successfully");
+//       }
+//     });
+//   }
+// });
+
+// fs.rename("newFile.txt", "demo.txt", renamingCompleted);
+// function renamingCompleted(error) {
+//   if (error) {
+//     console.log(error);
+//   } else {
+//     console.log("File Renamed...");
+//   }
+// }
+
+// fs.readdir("d:\\SQ\\skillQodeNodeBatch_3", readDirCompleted);
+// function readDirCompleted(error, file) {
+//   if (error) {
+//     console.log(error);
+//   } else {
+//     for (var i = 0; i < file.length; i++) {
+//       console.log(file[i]);
+//       // console.log(file[i].indexOf(".") > -1 ? "file : " : "folder", " - ", file[i]);
+//     }
+//   }
+// }
+
+// fs.unlink("demo.txt", (err) => {
+//   if (err) throw err;
+//   else {
+//     console.log("file deleted successfully !!!");
+//   }
+// });
