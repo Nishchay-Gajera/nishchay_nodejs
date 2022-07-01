@@ -788,4 +788,28 @@
 
 //     - we will download express library by using either "npm" or "yarn" tool
 
-//     - "express" framework downloads to "node_modules" folder in current path.
+// //     - "express" framework downloads to "node_modules" folder in current path.
+
+// var http = require("http");
+// console.log(typeof (http));
+// var server = http.createServer((request, response) => {
+//   response.setHeader("Content-type", "text/html");
+// //   res.writeHead(200, { "Content-Type": "text/html" });
+//   response.write("<h1> Hello </h1>");
+//   console.log(" request rec.. ");
+//   response.end();
+// });
+// server.listen(7878, () => {
+//   console.log("Listning 7878");
+// });
+
+let http = require("http")
+ http.createServer((request,response)=>{
+    response.setHeader("content-type","text\html")
+    response.write("<h1>Nice to meet you</h1>")
+    console.log("request...")
+    response.end()
+})
+.listen(8080,()=>{
+    console.log("server started")
+})
