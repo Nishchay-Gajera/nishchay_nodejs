@@ -7,8 +7,9 @@ let server = http.createServer((req,res)=>{
         res.write("<h1>Login success</h1>")
     }
     else{
-        res.write("<h1>💩 Wrong Pass</h1>")
+        res.write("<h1>Wrong detail</h1>")
     }
     res.end()
 })
 server.listen(8080)
+

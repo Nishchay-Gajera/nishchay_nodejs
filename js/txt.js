@@ -768,6 +768,11 @@
 
 // 3) authentication & secuirity
 
+// {
+//     jwt Authentication 
+//     md5
+// }
+
 // 4) exceptional handling
 
 
