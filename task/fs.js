@@ -6,7 +6,6 @@ let server = http.createServer((request,response)=>{
     response.write(result1)
     console.log("request...")
     response.end()
-    
 })
 server.listen(8080,()=>{
     console.log("Server created...")
