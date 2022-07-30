@@ -8,17 +8,17 @@ var StudSchema = new mongoose.Schema(
   },
   { versionKey: false }
 );
-var StudentModel = mongoose.model("crudstart", StudSchema);
+var StudentModel = mongoose.model("crudstarts", StudSchema);
 
 mongoose.connect("mongodb://localhost:27017/crudins", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
 var newStud = new StudentModel({
-  sno: 121,
-  sname: "rohan",
-  fees: 110000,
-  course: "Python Django",
+  sno: 124545,
+  sname: "nishchay",
+  fees: 1254,
+  course: "Node js",
 });
 
 newStud.save((error)=>{
