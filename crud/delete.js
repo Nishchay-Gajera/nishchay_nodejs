@@ -1,5 +1,5 @@
 
-//delete
+// delete
 // const deleteDocument = async(_id) =>{
 //   try{
 //       const result =await Playlist.findByIdAndDelete({_id})

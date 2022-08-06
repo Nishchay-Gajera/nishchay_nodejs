@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+	<title>CV GENERATOR</title>
+	<script src="jquery-3.3.1.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="full">
+		<div class="left">
+			<div class="image">
+				<img src="1.jpg" alt="gfg-logo" style="width:100px;height:100px;">
+			</div>
+			<div class="Contact">
+				<h2>Contact</h2>
+				<p><b>Email id:</b>
+				<form>
+					<input type="email" id="semail" placeholder="enter email">
+					</p>
+					<br>
+					<p><b>Mobile no :</b>
+						<input type="tel" id="snumber" placeholder="Enter Number">
+					</p>
+			</div>
+			<div class="Skills">
+				<h2>Skills</h2>
+				<ul>
+					<li><b>Programming Languages
+							<input type="text" id="programmingl" placeholder="enter programming lang">
+						</b></li>
+					<li><b>Frontend
+
+							<input type="text" id="frontendl" placeholder="Enter Forntend Lang">
+
+						</b></li>
+					<li><b>Backend
+							<input type="text" id="backendl" placeholder="enter backend lang">
+						</b></li>
+				</ul>
+			</div>
+			<div class="Language">
+				<h2>Language</h2>
+				<ul>
+					<li>
+						<input type="text" id="slang1" placeholder="Enter language">
+					</li>
+					<br>
+					<li>
+						<input type="text" id="slang2" placeholder="Enter language 2">
+					</li>
+				</ul>
+			</div>
+			<div class="Hobbies">
+				<h2>Hobbies</h2>
+				<ul>
+					<li>
+						<input type="text" id="shobbies1" placeholder="Enter Hobbies">
+					</li>
+					<br>
+					<li>
+						<input type="text" id="shobbies2" placeholder="Enter Hobbies">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+			<div class="name">
+				<h1><input type="text" id="sname" placeholder="Enter Name"></h1>
+			</div>
+			<div class="title">
+				<h2>Web Developer</h2>
+			</div>
+			<div class="Summary">
+				<h2>Summary</h2>
+				<p>
+					<textarea name="message" rows="2" cols="50"
+						id="ssummary">The cat was playing in the garden.</textarea>
+				</p>
+			</div>
+			<div class="Experience">
+				<h2>Experience</h2>
+				<br>
+				<h3>
+					<input type="text" id="scompany1" placeholder="Enter company name">
+				</h3>
+				<p><br>
+					<input type="text" id="sjoining1" placeholder="Enter Join and leave date">
+				</p>
+			</div>
+			<div class="Education">
+				<h2>Education</h2>
+				<table>
+					<tr>
+						<th>University/college </th>
+						<th>Passing year </th>
+						<th>percentage/cgpa</th>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" id="sclg1" placeholder="College name">
+						</td>
+						<td>
+							<input type="date" id="sdate">
+						</td>
+						<td>
+							<input type="number" id="scgpa" placeholder="Percentage/CGPA">
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="project">
+				<ul>
+					<h2>Project</h2>
+					<li>
+						<input type="text" id="sproject" placeholder="Enter Projects">
+
+					</li>
+					<br>
+					<li>
+						<input type="text" id="sproject2" placeholder="Enter Projects">
+					</li>
+				</ul>
+			</div>
+			<input type="button" value="Print CV" id="sbtn">
+			</form>
+		</div>
+	</div>
+</body>
+<script>
+	document.getElementById("sbtn").addEventListener("click", sample);
+	function sample() {
+		window.print();
+	}
+</script>
+</html>

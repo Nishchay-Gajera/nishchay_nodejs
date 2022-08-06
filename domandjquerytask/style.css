@@ -1,0 +1,292 @@
+
+@media print{
+
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#full {
+	width: 100%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(8, 93, 221);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(0, 177, 236);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+li{
+    color: white;
+}
+th{
+    color: white;
+}
+#shobbies1{
+    font-size: 16px;
+    background-color: rgb(8, 93, 221);
+    border: none;
+}
+#semail{
+    font-size: 16px;
+    background-color: rgb(8, 93, 221);
+    border: none;
+}
+#snumber{
+    font-size: 16px;
+    background-color: rgb(8, 93, 221);
+    border: none;
+}
+#programmingl{
+    font-size: 16px;
+    background-color: rgb(8, 93, 221);
+    border: none;
+}
+#frontendl{
+    font-size: 16px;
+    background-color: rgb(8, 93, 221);
+    border: none;
+}
+#backendl{
+    font-size: 16px;
+    background-color: rgb(8, 93, 221);
+    border: none;
+}
+#slang1{
+    font-size: 16px;
+    background-color: rgb(8, 93, 221);
+    border: none;
+}
+#slang2{
+    font-size: 16px;
+    background-color: rgb(8, 93, 221);
+    border: none;
+}
+#shobbies2{
+    font-size: 16px;
+    background-color: rgb(8, 93, 221);
+    border: none;
+}
+#sname{
+    font-size: 16px;
+    font-size: 20px;
+    background-color: rgb(0, 177, 236);
+    border: none;
+}
+#ssummary{
+    font-size: 16px;
+    background-color: rgb(0, 177, 236);
+    border: none;
+}
+#scompany1{
+    font-size: 16px;
+    background-color: rgb(0, 177, 236);
+    border: none;
+}
+#sjoining1{
+    font-size: 16px;
+    background-color: rgb(0, 177, 236);
+    border: none;
+}
+#sclg1{
+    font-size: 16px;
+    background-color: rgb(0, 177, 236);
+    border: none;
+}
+#sdate{
+    font-size: 16px;
+    background-color: rgb(0, 177, 236);
+    border: none;
+}
+#scgpa{
+    font-size: 16px;
+    background-color: rgb(0, 177, 236);
+    border: none;
+}
+#sproject{
+    font-size: 16px;
+    background-color: rgb(0, 177, 236);
+    border: none;
+}
+#sproject2{
+    font-size: 16px;
+    background-color: rgb(0, 177, 236);
+    border: none;
+}
+::placeholder{
+    color: black;
+} 
+::placeholder{
+    color: black;
+}
+#sbtn{
+    visibility: hidden;
+}
+}
+@media screen {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: rgb(253, 254, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #full {
+        width: 100%;
+        max-width: 1000px;
+        min-height: 100px;
+        background-color: rgb(245, 239, 231);
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+    }
+    .left {
+        position: initial;
+        background-color: rgb(8, 93, 221);
+        padding: 20px;
+    
+    }
+    .right {
+        position: initial;
+        background-color: rgb(0, 177, 236);
+        padding: 20px;
+    
+    }
+    .image, .Contact, .Skills, .Language, .Hobbies, .title,
+    .Summary, .Experience, .Education, .project {
+        margin-bottom: 30px;
+    }
+    h2{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+    li{
+        color: white;
+    }
+    th{
+        color: white;
+    }
+    #shobbies1{
+        font-size: 16px;
+        background-color: rgb(8, 93, 221);
+        border: none;
+    }
+    #semail{
+        font-size: 16px;
+        background-color: rgb(8, 93, 221);
+        border: none;
+    }
+    #snumber{
+        font-size: 16px;
+        background-color: rgb(8, 93, 221);
+        border: none;
+    }
+    #programmingl{
+        font-size: 16px;
+        background-color: rgb(8, 93, 221);
+        border: none;
+    }
+    #frontendl{
+        font-size: 16px;
+        background-color: rgb(8, 93, 221);
+        border: none;
+    }
+    #backendl{
+        font-size: 16px;
+        background-color: rgb(8, 93, 221);
+        border: none;
+    }
+    #slang1{
+        font-size: 16px;
+        background-color: rgb(8, 93, 221);
+        border: none;
+    }
+    #slang2{
+        font-size: 16px;
+        background-color: rgb(8, 93, 221);
+        border: none;
+    }
+    #shobbies2{
+        font-size: 16px;
+        background-color: rgb(8, 93, 221);
+        border: none;
+    }
+    #sname{
+        font-size: 16px;
+        font-size: 20px;
+        background-color: rgb(0, 177, 236);
+        border: none;
+    }
+    #ssummary{
+        font-size: 16px;
+        background-color: rgb(0, 177, 236);
+        border: none;
+    }
+    #scompany1{
+        font-size: 16px;
+        background-color: rgb(0, 177, 236);
+        border: none;
+    }
+    #sjoining1{
+        font-size: 16px;
+        background-color: rgb(0, 177, 236);
+        border: none;
+    }
+    #sclg1{
+        font-size: 16px;
+        background-color: rgb(0, 177, 236);
+        border: none;
+    }
+    #sdate{
+        font-size: 16px;
+        background-color: rgb(0, 177, 236);
+        border: none;
+    }
+    #scgpa{
+        font-size: 16px;
+        background-color: rgb(0, 177, 236);
+        border: none;
+    }
+    #sproject{
+        font-size: 16px;
+        background-color: rgb(0, 177, 236);
+        border: none;
+    }
+    #sproject2{
+        font-size: 16px;
+        background-color: rgb(0, 177, 236);
+        border: none;
+    }
+    ::placeholder{
+        color: black;
+    } 
+
+}
