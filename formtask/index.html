@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Enquiry Form</h1>
+    <div>
+        <form>
+            Name: <input type="text" id="sname">
+            Lastname: <input type="text" id="slast">
+            <br><br>
+            Email: <input type="email" id="semail">
+            Phone No: <input type="tel" id="snumber">
+            <br><br>
+            <h2>Select Course</h2>
+            <input type="checkbox" name="course" id="scl" value="C language">
+            <label for="scl">C Language</label>
+            <input type="checkbox" name="course" id="scpp" value="C++">
+            <label for="scpp">C++ Language</label>
+            <input type="checkbox" name="course" id="sjs" value="javascript">
+            <label for="sjs">Javascript Language</label>
+            <br><br>
+            <h2>Select Batch Time</h2>
+            Enter date: <input type="date" id="sdate">
+            Enter Time: <input type="time" id="stime">
+            <h2>Select Age</h2>
+            <input type="radio" name="sage1" class="sage" value="15">
+            <label for="sage1">0-15</label>
+            <br>
+            <input type="radio" name="sage2" class="sage" value="30">
+            <label for="sage2">15-30</label>
+            <br>
+            <input type="radio" name="sage3" class="sage" value="45">
+            <label for="sage3">30-45</label>
+            <br><br>
+            <h2>Additional Information</h2>
+            <input type="radio" name="sfem" class="gender" value="Female">
+            <label for="sfem">Female</label>
+            <br>
+            <input type="radio" name="smal" class="gender" value="Male">
+            <label for="smal">Male</label>
+            <br><br>
+            <textarea id="sknow" cols="30" rows="3">Add Something About You</textarea>
+             <br><br>
+            <input type="button" value="Submit" id="ssubmit">
+        </form>
+    </div>
+    </center>
+</body>
+<script>
+    document.getElementById("ssubmit").addEventListener("click",sample)
+    function sample(){
+        var name = document.getElementById("sname").value
+        var lastname = document.getElementById("slast").value
+        var emailadd = document.getElementById("semail").value
+        var phoneno = Number(document.getElementById("snumber").value)
+        var gender1 = document.querySelector(".gender:checked").value
+        var checkboxes = document.getElementsByName("course")
+        var result = ""
+        var date = document.getElementById("sdate").value
+        var time = document.getElementById("stime").value
+        var age = document.querySelector(".sage:checked").value
+        var know = document.getElementById("sknow").value
+                for(var i=0;i<checkboxes.length;i++){
+            if(checkboxes[i].checked){
+                result = result + checkboxes[i].value
+            }
+        }
+        console.log("Name: ",name)
+        console.log("LastName: ",lastname)
+        console.log("Email: ",emailadd)
+        console.log("Phone no: ",phoneno)
+        console.log("Course Date",date)
+        console.log("Course Time",time)
+        console.log("Your Age",age)
+        console.log("Selected Language: ",result+" ")
+        console.log("Gender: ",gender1)
+        console.log("About You: ",know)
+
+    }
+</script>
+</html>
