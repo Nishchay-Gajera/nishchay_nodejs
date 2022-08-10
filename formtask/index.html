@@ -55,32 +55,29 @@
 <script>
     document.getElementById("ssubmit").addEventListener("click",sample)
     function sample(){
-        var name = document.getElementById("sname").value
-        var lastname = document.getElementById("slast").value
-        var emailadd = document.getElementById("semail").value
-        var phoneno = Number(document.getElementById("snumber").value)
-        var gender1 = document.querySelector(".gender:checked").value
+ 
         var checkboxes = document.getElementsByName("course")
         var result = ""
-        var date = document.getElementById("sdate").value
-        var time = document.getElementById("stime").value
-        var age = document.querySelector(".sage:checked").value
-        var know = document.getElementById("sknow").value
-                for(var i=0;i<checkboxes.length;i++){
+        for(var i=0;i<checkboxes.length;i++){
             if(checkboxes[i].checked){
                 result = result + checkboxes[i].value
             }
         }
-        console.log("Name: ",name)
-        console.log("LastName: ",lastname)
-        console.log("Email: ",emailadd)
-        console.log("Phone no: ",phoneno)
-        console.log("Course Date",date)
-        console.log("Course Time",time)
-        console.log("Your Age",age)
-        console.log("Selected Language: ",result+" ")
-        console.log("Gender: ",gender1)
-        console.log("About You: ",know)
+        var checkboxr = result
+        var data = {
+            sname: document.getElementById("sname").value,
+            lastname: document.getElementById("slast").value,
+            emailadd: document.getElementById("semail").value,
+            phoneno : Number(document.getElementById("snumber").value),
+            gender1 : document.querySelector(".gender:checked").value,
+            date : document.getElementById("sdate").value,
+            time: document.getElementById("stime").value,
+            age : document.querySelector(".sage:checked").value,
+            know : document.getElementById("sknow").value,
+            resultcheck : checkboxr
+
+        }
+        console.log(data)
 
     }
 </script>
