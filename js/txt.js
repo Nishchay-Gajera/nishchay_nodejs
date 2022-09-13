@@ -834,7 +834,7 @@ let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
     // const result = fs.readFileSync("demo.txt");
     // console.log(result.toString());
 
-// fs.openSync("demo.txt", "r+");
+    // fs.openSync("demo.txt", "r+");
 // console.log("file opened synchronously");
 
 
@@ -852,19 +852,19 @@ let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
 // fs.rename("newFile.txt", "demo.txt", renamingCompleted);
 // function renamingCompleted(error) {
-//   if (error) {
-//     console.log(error);
-//   } else {
+    //   if (error) {
+        //     console.log(error);
+        //   } else {
 //     console.log("File Renamed...");
 //   }
 // }
 
 // fs.readdir("d:\\SQ\\skillQodeNodeBatch_3", readDirCompleted);
 // function readDirCompleted(error, file) {
-//   if (error) {
-//     console.log(error);
-//   } else {
-//     for (var i = 0; i < file.length; i++) {
+    //   if (error) {
+        //     console.log(error);
+        //   } else {
+            //     for (var i = 0; i < file.length; i++) {
 //       console.log(file[i]);
 //       // console.log(file[i].indexOf(".") > -1 ? "file : " : "folder", " - ", file[i]);
 //     }
@@ -872,16 +872,17 @@ let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 // }
 
 // fs.unlink("demo.txt", (err) => {
-//   if (err) throw err;
-//   else {
-//     console.log("file deleted successfully !!!");
+    //   if (err) throw err;
+    //   else {
+        //     console.log("file deleted successfully !!!");
 //   }
 // });
 
-var str = 'hello this si nishchay'
-var str2 = str.split('')
-var temp="";
-for(var i=str2.length;i>=0;i--){
-    temp = str2[i]
-    console.log(temp)
-}
+// reverse a string
+// var str = 'hello this si nishchay'
+// var str2 = str.split('')
+// var temp="";
+// for(var i=str2.length;i>=0;i--){
+//     temp = str2[i]
+//     console.log(temp)
+// }
