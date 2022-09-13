@@ -39,6 +39,7 @@
 //     console.log(a);
 // }
 // console.log(a);
+
 // var a = 40;
 // {
 //     let a = 50
@@ -139,17 +140,17 @@
 // Array is a object it is not a real array
 
 // console.log(arr["0"]);
-// console.log(arr[3.0]);
 // console.log(arr[3.1]);
-// arr[3.5] = 45;
+// var arr[3.5] = 45;
+// console.log(arr[3.5]);
 // arr["A"] = 110;
 
 //declareration of array
 // let arr = [5,8,9,4];
 //console.log(arr)
 
-// let arr = [5,6,8,9]
-// arr[4] = 88;
+// let arr = [5,6,8,9,'sfsj']
+// arr[4.5] = 88;
 // console.log(arr)
 
 // Length = in js length is a property not a function
@@ -216,10 +217,10 @@
 
 //splice()
 // it is used to add/remove the element at any index
-// let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
-// arr1.splice(4, 3);
+let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+// arr1.splice(5, 3);
 // console.log(arr1);
-// arr1.splice(6, 1);s
+// arr1.splice(6, 1);
 // console.log(arr1);
 // arr1.splice(0, 1);
 // console.log(arr1);
@@ -227,7 +228,7 @@
 // console.log(arr1);
 // arr1.splice(2, 0, 11, 12, 13);
 // console.log(arr1);
-// arr1.splice(1, 1, 11, 12);
+// arr1.splice(1, 1, 11);
 // console.log(arr1);
 // arr1.splice(0, 0, 11);
 // console.log(arr1);
@@ -343,7 +344,7 @@
 // }
 // one(two,three,four)
 
-// let arr=[]
+// let arr=[]ar
 // function one(){
 //     return 'hello'
 // }
@@ -431,7 +432,7 @@
 // function two(){ 
 //     return "Hello world"
 // }
-// one(two())
+// one(twqo())
 
 // function one(param1){
 //     console.log(param1())
@@ -876,3 +877,11 @@
 //     console.log("file deleted successfully !!!");
 //   }
 // });
+
+var str = 'hello this si nishchay'
+var str2 = str.split('')
+var temp="";
+for(var i=str2.length;i>=0;i--){
+    temp = str2[i]
+    console.log(temp)
+}

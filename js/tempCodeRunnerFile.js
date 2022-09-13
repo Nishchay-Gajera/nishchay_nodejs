@@ -1,6 +1,4 @@
-fs.open("demo.txt", "r+", (err, fd) => {
-  if (err) throw err;
-  else {
-    console.log("file opened successfully !!!");
-  }
-});
+
+var str = 'hello'
+var str2 = str.split('')
+console.log(str2)

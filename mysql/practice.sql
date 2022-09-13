@@ -1,0 +1,24 @@
+-- create database newskill;
+-- use newskill;
+-- create table student(
+-- 	srollno int,
+-- 	sname varchar(10),
+--     sadd varchar(15)
+-- )
+-- insert into student values(1,'Nishchay','jakatnaka surat') 
+-- insert into student values(2,'Nimit','Varachha surat')
+-- insert into student values(3,'Kashil','Mota varachha surat')
+-- insert into student values(4,'Parimal','jakatnaka surat')
+-- insert into student values(5,'Vivek','varachha surat') 
+-- insert into student values(6,'Yaman','Kapodra surat')
+-- insert into student values(7,'Yug','surat') 
+-- insert into student values(8,'Hemil','Vesu surat')
+-- insert into student values(9,'Meet','Punagam surat') 
+-- insert into student values(10,'Hardik','Dindole surat')  
+-- use newskill
+-- truncate table student
+-- drop table student
+-- select * from student
+-- SET SQL_SAFE_UPDATES = 0;
+-- update newskill.emp_mstr set DEPT = 'Marketing' where FNAME = 'Ivan';
+-- select * from emp_mstr where desig = 'Sales Asst.' or dept='Marketing';
