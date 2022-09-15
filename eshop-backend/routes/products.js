@@ -1,6 +1,6 @@
-let {Product}= require("../models/product")
-let express = require("express");
-let router = express.Router();
+const {Product}= require("../models/product")
+const express = require("express");
+const router = express.Router();
 
 router.get('/',async(req,res)=>{
 
@@ -17,16 +17,16 @@ router.get('/',async(req,res)=>{
 
 router.post('/',(req,res)=>{
     const product =new Product({
-        name:req.body.name,
-        image:req.body.image,
-        countInStock:req.body.countInStock.type,
+        name: req.body.name,
+        image: req.body.image,
+        countInStock: req.body.countInStock.type,
     });
 
 
     product
         .save()
         .then((createdProduct)=>{
-            
+
             res.status(201).json(createdProduct);
         })
         .catch((err)=>{
