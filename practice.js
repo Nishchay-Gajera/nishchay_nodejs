@@ -11,21 +11,21 @@
 
 //promise
 
-var promise1 = new Promise((resolve,reject)=>{
-    console.log("Yes promise called")
-    // const obj = {
-    //     user : 46
-    // }
-    // resolve(obj)
-    reject("Something went wrong")
-})
+// var promise1 = new Promise((resolve,reject)=>{
+//     console.log("Yes promise called")
+//     // const obj = {
+//     //     user : 46
+//     // }
+//     // resolve(obj)
+//     reject("Something went wrong")
+// })
 
-.then((value)=>{
-    console.log(value)
-})
-.catch((err)=>{
-    console.log("error is ",err)
-})
+// .then((value)=>{
+//     console.log(value)
+// })
+// .catch((err)=>{
+//     console.log("error is ",err)
+// })
 
 
 //promise all
@@ -55,4 +55,14 @@ var promise1 = new Promise((resolve,reject)=>{
 // })
 // .catch((error)=>{
 //     console.log(error)
+// })
+
+// var http = require("http");
+// var server = http.createServer((request,response)=>{
+//     response.setHeader("content-type","text/html")
+//     response.write("Hello world")
+//     response.end()
+// })
+// server.listen(2596,()=>{
+//     console.log("Server started...")
 // })
