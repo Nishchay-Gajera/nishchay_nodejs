@@ -1,5 +1,6 @@
 const {Category} = require("../models/category");
 const express = require("express");
+const { Router } = require("express");
 const router = express.Router();
 
 //GET
@@ -32,6 +33,41 @@ router.post('/',async (req,res)=>{
     category = await category.save();
     if(!category) return res.status(400).send("The category cannot be created")
     res.send(category);
+});
+
+// UPDATE
+router.put("/:id",async (req,res)=>{
+    let category = await Category.findByIdAndUpdate(
+        req.params.id,{
+            name: req.body.name,
+            icon: req.body.icon || category.icon,
+            color: req.body.color,
+        },
+        {new:true}
+    )
+    if(!category) return res.status(400).send("The category cannot be created");
+    res.send(category)
+});
+
+//DELETE
+
+router.delete("/:id",async (req,res)=>{
+        Category.findByIdAndRemove(req.params.id)
+        .then((category)=>{
+            if(category){
+                return res
+                .status (200)
+                .json({success:true,message:"The category is deleted"})
+            }
+            else{
+                return res
+                .status(404)
+                .json({success: false, message:"category not found"})
+            }
+        }) 
+        .catch((err)=>{
+            return res.status(500).json({success: false, error: err})
+        });
 });
 
 module.exports = router;
