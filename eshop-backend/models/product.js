@@ -1,11 +1,30 @@
 const mongoose=require('mongoose');
 
 const productSchema = mongoose.Schema({
-    name: String,
-    image: String,
-    countInStock: {
-        type: Number,
-        required: true
+    name:{
+        type: String,
+        required: true,
+    },
+    description:{
+        type: String,
+        required: true, 
+    },
+    richDescription:{
+        type: String,
+        default: "",
+    },
+    image:{
+        type: String,
+        default: "",
+    },
+    imags:[
+        {
+            type: String,
+        },
+    ],
+    brand:{
+        type: String,
+        default: "",
     }
 })
 
