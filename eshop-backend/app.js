@@ -21,7 +21,6 @@ const usersRoutes = require("./routes/users")
 app.use('/products',productsRoutes)
 app.use('/categories',categoriesRoutes)
 app.use('/users',usersRoutes)
-app.use(authJwt)
 
 
 mongoose.connect(process.env.connection_url)
