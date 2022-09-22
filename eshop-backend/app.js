@@ -12,15 +12,17 @@ require('dotenv/config')
 app.use(morgan("tiny"));
 app.use(cors());
 app.use(bodyParser.json())
-app.use(authJwt())
+// app.use(authJwt())
 
 //routes
 const productsRoutes = require("./routes/products")
 const categoriesRoutes = require("./routes/categories")
 const usersRoutes = require("./routes/users")
+const ordersRoutes = require("./routes/orders")
 app.use('/products',productsRoutes)
 app.use('/categories',categoriesRoutes)
 app.use('/users',usersRoutes)
+app.use('/orders',ordersRoutes)
 
 
 mongoose.connect(process.env.connection_url)
