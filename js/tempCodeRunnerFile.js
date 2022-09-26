@@ -1,4 +1,3 @@
-
-var str = 'hello'
-var str2 = str.split('')
-console.log(str2)
+let arr = [10,20,30,40,50,60,70,80,90,100]
+arr.shift();
+console.log(arr)

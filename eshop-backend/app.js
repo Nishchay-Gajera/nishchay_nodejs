@@ -12,7 +12,7 @@ require('dotenv/config')
 app.use(morgan("tiny"));
 app.use(cors());
 app.use(bodyParser.json())
-// app.use(authJwt())
+app.use(authJwt())
 
 //routes
 const productsRoutes = require("./routes/products")

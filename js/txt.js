@@ -194,7 +194,7 @@
 
 //6-6-22
 
-//push()
+// push()
 // let arr=[10,20,33,40,50,60,70,80,90]
 // arr.push(20)
 // console.log(arr)
@@ -217,7 +217,7 @@
 
 //splice()
 // it is used to add/remove the element at any index
-let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+// let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 // arr1.splice(5, 3);
 // console.log(arr1);
 // arr1.splice(6, 1);
@@ -226,7 +226,7 @@ let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 // console.log(arr1);
 // arr1.splice(1, 1);
 // console.log(arr1);
-// arr1.splice(2, 0, 11, 12, 13);
+// arr1.splice(2,0, 11, 12, 13);
 // console.log(arr1);
 // arr1.splice(1, 1, 11);
 // console.log(arr1);
@@ -252,7 +252,7 @@ let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 // console.log(arr.slice(2, -4));
 // console.log(arr.slice(1, 5));
 // console.log(arr.slice(-10, 8));
-// console.log( arr.slice(-2) );
+// console.log( arr.slice());
 // console.log(arr);
 
 // 8-6-22
@@ -424,6 +424,8 @@ let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 // Call back Function:
 // A callback function is a function passed into another function as an argument, 
 // which is then invoked inside the outer function to complete some kind of routine or action.
+
+
 
 
 // function one(param1){
@@ -763,7 +765,7 @@ let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 // > nodemon app.js
 
 
-// 1) ExpressJS
+// 1) ExpressJSasyn
 
 // 2) CRUD 
 
@@ -790,7 +792,7 @@ let arr1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 //                     DELETE
 //                     PATCH
                     
-//     - express is the 3rd party framework.
+//     - express is the 3rd party framewo  nrk.
 
 //     - we will download express library by using either "npm" or "yarn" tool
 
