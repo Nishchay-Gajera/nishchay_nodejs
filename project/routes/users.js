@@ -68,7 +68,7 @@ router.post('/add', function(req, res, next) {
                     position:form_data.position
                 })
             } else {                
-                req.flash('success', 'User successfully added');
+                    req.flash('success', 'User successfully added');
                 res.redirect('/users');
             }
         })
